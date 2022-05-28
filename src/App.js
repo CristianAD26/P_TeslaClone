@@ -18,6 +18,7 @@ const App = () => {
         <Header />
         <div className='App_ItemsContainer'>
           <Section 
+            id=""
             title='Model 3'
             desc='Order Online for Touchless Delivery'
             desclink=''
@@ -30,6 +31,7 @@ const App = () => {
             first
           />
           <Section 
+            id="my"
             title='Model Y'
             desc='Order Online for Touchless Delivery'
             desclink=''
@@ -41,6 +43,7 @@ const App = () => {
             twoButtons = 'true'
           />
           <Section 
+            id=""
             title='Model S'
             desc='Order Online for Touchless Delivery'
             desclink=''
@@ -52,6 +55,7 @@ const App = () => {
             twoButtons = 'true'
           />
           <Section 
+            id=""
             title='Model X'
             desc='Order Online for Touchless Delivery'
             desclink=''
@@ -63,6 +67,7 @@ const App = () => {
             twoButtons = 'true'
           />
           <Section 
+            id=""
             title='Solar Panels'
             desc='Lowest Cost Solar Panels in America'
             desclink=''
@@ -74,6 +79,7 @@ const App = () => {
             twoButtons = 'true'
           />
           <Section 
+            id=""
             title='Solar Roof'
             desc='Produce Clean Energy From Your Roof'
             desclink=''
@@ -85,6 +91,7 @@ const App = () => {
             twoButtons = 'true'
           />
           <Section 
+            id=""
             title='Accesories'
             desc=''
             desclink=''

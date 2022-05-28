@@ -3,9 +3,9 @@ import Button from './button.js'
 import './Section.css'
 import { MdOutlineExpandMore } from 'react-icons/md';
 
-const Section = ({title, desc, backgroundImg, leftBtnTxt, leftBtnLink, RightBtnTxt, RightBtnLink, twoButtons, first}) => {
+const Section = ({id, title, desc, backgroundImg, leftBtnTxt, leftBtnLink, RightBtnTxt, RightBtnLink, twoButtons, first}) => {
     return (
-        <div className='section' style={{
+        <div id={id} className='section' style={{
             backgroundImage: `url(${backgroundImg})`
         }}>
             <div className='section_container'>
@@ -23,7 +23,9 @@ const Section = ({title, desc, backgroundImg, leftBtnTxt, leftBtnLink, RightBtnT
                         )}
                     </div>
                     {first && (
-                        <MdOutlineExpandMore className='icon_expand' />
+                        <a href="">
+                            <MdOutlineExpandMore className='icon_expand' />
+                        </a>
                     )}
                 </div>
             </div>

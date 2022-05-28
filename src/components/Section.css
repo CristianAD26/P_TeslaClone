@@ -45,8 +45,15 @@
 }
 
 .icon_expand{
-    color:white;
+    font-size:35px;
+    font-weight:lighter;
+    color:#393041;
     width:100%;
     justify-content: center;
     margin-bottom: 10px;
+}
+
+.button-icon{
+    background-color: transparent;
+    border: none;
 }

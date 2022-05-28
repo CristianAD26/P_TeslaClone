@@ -41,7 +41,7 @@
     transition:0.4s;
 }
 
-.header a{
+.header_menu a, .header_options a{
     text-decoration: none;
     color:#393041;
 }
