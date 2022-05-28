@@ -1,8 +1,8 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
 import Home from './App.js'
+import './index.css'
 
-document.body.style = 'display:flex; height:100vh;align-items: center;justify-content: center; background-color:black;'
 
 const App = () => {
   return (
@@ -11,4 +11,4 @@ const App = () => {
 }
 
 const getRoot = () => { return document.getElementById('root') }
-createRoot(getRoot()).render(<Home />)
+createRoot(getRoot()).render(<App />)
