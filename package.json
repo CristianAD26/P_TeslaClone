@@ -7,13 +7,19 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server .",
     "build": "webpack .",
-    "lint": "eslint src/App.js src/index.js"
+    "lint": "eslint src/App.js src/index.js src/components/button.js src/components/header.js src/components/Section.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^6.7.1",
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
     "file-loader": "^6.2.0",
     "prettier": "^2.6.2",
     "react-icons": "^4.3.1",
@@ -31,8 +37,9 @@
     "@babel/preset-react": "^7.17.12",
     "@babel/runtime": "^7.18.3",
     "babel-loader": "^8.2.5",
-    "eslint": "^8.16.0",
+    "init": "^0.1.2",
     "react": "^18.1.0",
+    "react-icons": "^4.3.1",
     "react-dom": "^18.1.0"
   }
 }

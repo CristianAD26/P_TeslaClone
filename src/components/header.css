@@ -5,7 +5,6 @@
     background: none;
     position:fixed;
     font-size:14.5px;
-    width: 98vw;
     top: 0;
     z-index: 100;
 }
@@ -55,6 +54,7 @@
     display: flex;
     justify-content: flex-end;
     text-transform: capitalize;
+    margin-right: 20px;
 }
 
 .header_options>p{
@@ -86,3 +86,19 @@
     text-decoration: underline;
 }
 
+#button-menu{
+    cursor: pointer;
+    font-weight: bold;
+    font-size:15px;
+    border:none;
+    background:none;
+    color:#393041;
+}
+
+.nav-bar-none{
+    display: block;
+}
+
+.nav-bar-none{
+    display: none;
+}
